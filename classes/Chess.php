@@ -8,7 +8,7 @@ use Content\Includes\HTML;
 
 class Chess
 {
-    private bool $isBrightCell = false;
+    private bool $isBrightCell = true;
 
     private const DARK = [
         "KING" => 1,
